@@ -1,0 +1,88 @@
+body {
+  background: #15202b;
+  text-decoration: none;
+}
+
+.mainContainer {
+  max-width: 625px;
+  border: 1.5px solid #38444d;
+}
+
+.bi-arrow-left {
+  font-size: 17px;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  transition: 0.2s ease-in-out;
+}
+.bi-arrow-left:hover {
+  background: #2b353f;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+#nickname {
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 30px;
+}
+
+.twtsCount {
+  color: #8b98a5;
+  padding: 0px 65px;
+  margin-top: -7px;
+  font-size: 14px;
+}
+
+.headerPage {
+  padding: 80px;
+  background-image: url(img/header.jpg);
+}
+
+.pp {
+  margin-left: 10px;
+  margin-top: -75px;
+  padding: 60px;
+  width: 60px;
+  border-radius: 50%;
+  border: 2px solid #15202b;
+  background-image: url(img/pp.jpg);
+}
+
+.infoName {
+  color: #fff;
+  font-weight: 600;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.bioTxt {
+  color: #fff;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.bawahNama {
+  color: #8b98a5;
+  margin-left: 10px;
+  margin-top: -20px;
+  font-size: 14px;
+}
+
+.trans {
+  color: #1d9bf0;
+  margin-left: 10px;
+  margin-top: -10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.date {
+  color: #8b98a5;
+  margin-left: 10px;
+  margin-top: -10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.trans:hover {
+  text-decoration: underline;
+}
